@@ -15,11 +15,11 @@ const Main2 = () => {
   return (
     <>
         <div className="bg-yellow-500 h-[100vh]">
-            <Home />
+          <Home />
         </div>
 
         <div className='bg-red-500 h-[100vh]'>
-            <About />
+          <About />
         </div>
     </>
   )
