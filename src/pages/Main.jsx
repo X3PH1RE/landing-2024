@@ -37,7 +37,7 @@ const Main = () => {
           scrub: 1,
           snap: 1 / (panels1.length - 1),
           end: () => "+=" + slider1.current.offsetWidth,
-          markers: false
+          markers: true
         }
       });
       t1.to(
@@ -60,7 +60,7 @@ const Main = () => {
           scrub: 1,
           snap: 1 / (panels2.length - 1),
           end: () => "+=" + slider2.current.offsetWidth,
-          markers: false
+          markers: true
         }
       });
       t2.to(
@@ -83,7 +83,7 @@ const Main = () => {
           scrub: 1,
           snap: 1 / (panels3.length - 1),
           end: () => "+=" + slider3.current.offsetWidth,
-          markers: false
+          markers: true
         }
       });
       t3.to(
@@ -102,7 +102,7 @@ const Main = () => {
   return (
     <>
       <div ref={component}>
-        <div className="bg-yellow-500 h-[100vh]">
+        <div className="flex flex-col justify-center items-center h-screen bg-yellow-500">
           <Home />
         </div>
 
