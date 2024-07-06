@@ -18,7 +18,7 @@ const Main2 = () => {
           <Home />
         </div>
 
-        <div className='bg-red-500 h-[100vh]'>
+        <div className='bg-[#050B17] py-10 md:h-[100vh]'>
           <About />
         </div>
     </>
