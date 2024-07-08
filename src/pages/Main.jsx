@@ -130,7 +130,7 @@ const Main = () => {
         </div>
 
 
-        <div className='bg-red-500 flex h-[100vh]'>
+        <div className='bg-[#050B17] py-10 md:h-[100vh]'>
           <About />
         </div>
 
