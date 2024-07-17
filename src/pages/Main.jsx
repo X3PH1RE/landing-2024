@@ -11,16 +11,8 @@ import './style.css'
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 const Main = () => {
-  // const handleScroll = (event) => {
-  //   const container = event.target;
-  //   const scrollAmount = event.deltaY;
-  //   container.scrollTo({
-  //     top: 0,
-  //     left: container.scrollLeft + scrollAmount,
-  //     behavior: 'smooth'
-  //   });
-  // };
   const component = React.useRef();
   const slider1 = React.useRef();
   const slider2 = React.useRef();
@@ -71,7 +63,7 @@ const Main = () => {
           ease: "none"
         },
         pauseRatio
-      );
+      );  
       t2.to({}, { duration: pauseRatio });
 
       let panels3 = gsap.utils.toArray(".panel3");
@@ -125,12 +117,13 @@ const Main = () => {
         </div>
 
 
-        <div ref={slider3} className="w-[600vw] h-screen flex flex-wrap">
+        <div ref={slider3} className="bg-[#050B17] w-[600vw] h-screen flex flex-wrap">
           <PrevImages />
+          
         </div>
 
 
-        <div className='bg-[#050B17] py-10 md:h-[100vh]'>
+        <div className='bg-black py-10 md:h-[100vh]'>
           <About />
         </div>
 
