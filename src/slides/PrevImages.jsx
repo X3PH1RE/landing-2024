@@ -3,11 +3,12 @@ import BgLines from '../components/PrevImages/BgLines'
 import Title from '../components/PrevImages/Title'
 
 const images = [
-  "https://spaceupcusat.com/assets/gallery4-555fc366.jpg",
-  "https://spaceupcusat.com/assets/gallery2-721a2cac.jpeg",
-  "https://spaceupcusat.com/assets/gallery6-0d8f2651.jpeg",
-  "https://spaceupcusat.com/assets/gallery5-103969ed.jpg",
-  "https://spaceupcusat.com/assets/gallery3-74f91331.jpeg"
+  "/previmages/gallery4.jpg",
+  "/previmages/gallery2.jpeg",
+  "/previmages/gallery3.jpeg",
+  "/previmages/gallery5.jpg",
+  "/previmages/gallery1.jpeg",
+  "/previmages/gallery6.jpeg"
 ]
 
 const TopImage = ({ image }) => {

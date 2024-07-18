@@ -94,7 +94,7 @@ const Main = () => {
   return (
     <>
       <div ref={component}>
-        <div className="bg-yellow-500 h-[100vh]">
+        <div className="bg-[#050B17] h-[100vh]">
           <Home />
         </div>
 
