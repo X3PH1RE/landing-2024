@@ -119,7 +119,6 @@ const Main = () => {
 
         <div ref={slider3} className="bg-[#050B17] w-[600vw] h-screen flex flex-wrap">
           <PrevImages />
-          
         </div>
 
 
