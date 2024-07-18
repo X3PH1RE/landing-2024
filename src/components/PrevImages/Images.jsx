@@ -11,7 +11,7 @@ const images = [
   
 const TopImage = ({ image }) => {
     return (
-      <div className="flex justify-center items-start h-full">
+      <div className="flex justify-center items-center md:items-start h-full">
         <img src={image} alt="Top" className="max-h-96 w-auto" />
       </div>
     )
@@ -19,7 +19,7 @@ const TopImage = ({ image }) => {
   
 const BottomImage = ({ image }) => {
     return (
-      <div className="flex justify-center mt-0 items-end h-full">
+      <div className="flex justify-center mt-0 items-center md:items-end h-full">
         <img src={image} alt="Bottom" className="max-h-96 w-auto" />
       </div>
     )
@@ -29,7 +29,7 @@ const Images = () => {
   return (
     <>
         {images.map((image, index) => (
-        <div className="panel3 w-[50vw] h-[100vh] " key={index}>
+        <div className="mr-20 panel3 md:w-[50vw] w-[100vw] h-[100vh] " key={index}>
           {index % 2 === 0 ? (
             <BottomImage image={image} />
           ) : (
