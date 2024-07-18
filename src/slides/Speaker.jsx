@@ -13,7 +13,7 @@ const Speaker = ({ name, para1, para2, picture, designation }) => {
             <p>{para1}</p>
           </div>
           <div className="picture-container">
-          <img src='/images/jane.jpg' alt={name} className="speaker-image" />
+          <img src='jane.jpg' alt={name} className="speaker-image" />
             <h2>{name}</h2>
             <h3>{designation}</h3>
           </div>
